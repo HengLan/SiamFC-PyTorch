@@ -50,8 +50,12 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 * <b>Firstly</b>, you should take a look at `Config.py`, which contains all parameters for tracking
 * Change `self.net_base_path` to the path saving your trained models
 * Change `self.seq_base_path` to the path storing your test sequences (OTB format, otherwise you need to revise the function `load_sequence()` in `Tracking_Utils.py`
-* Change `self.net` to indicate whcih model you want for evaluation (by default, use the last one), and I've updated a trained model `SiamFC_50_model.pth` in this rep (located in $SiamFC-PyTorch/Train/model/)
+* Change `self.net` to indicate whcih model you want for evaluation (by default, use the last one), and I've uploaded a trained model `SiamFC_50_model.pth` in this rep (located in $SiamFC-PyTorch/Train/model/)
+* Change other parameters as your willing :)
 * Now, let's run `$python run_Train_SiamFC.py`
+* <b>some notes in tracking</b>
+  * two evaluation types are provided: single video demo and evaluation on the whole (OTB-100) benchmark
+  * you can also change whihc net for evaluation in `run_Train_SiamFC.py`
 
 ## Results
 
