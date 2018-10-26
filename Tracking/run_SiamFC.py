@@ -162,5 +162,3 @@ if __name__ == "__main__":
 
         avg_fps = fps_all / len(all_videos)
         print("Average FPS: %f" % avg_fps)
-
-
