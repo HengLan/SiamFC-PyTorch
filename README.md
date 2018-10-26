@@ -1,2 +1,2 @@
 # SiamFC-PyTorch
-PyTorch (0.40) implementation of SiamFC
+This is the PyTorch (0.40) implementation of SiamFC tracker [1].
