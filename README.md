@@ -25,6 +25,11 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
   * cd `$SiamFC-PyTorch/ILSVRC15-curation/` (Assume you've downloaded the rep and its path is `$SiamFC-PyTorch`)
   * change `vid_curated_path` in `gen_image_crops_VID.py` to save your crops
   * run `$python gen_image_crops_VID` (I run it in PyCharm), then you can check the cropped images in your saving path (i.e., `vid_curated_path`)
+  
+* Generate imdb for training and validation
+  * cd `$SiamFC-PyTorch/ILSVRC15-curation/`
+  * change `vid_root_path` and `vid_curated_path` to your custom path in `gen_imdb_VID.py`
+  * run `$python gen_imdb_VID` (I run it in PyCharm), then you will get two json files `imdb_video_train.json` and `imdb_video_val.json` in current folder
  
 
 ## Train
