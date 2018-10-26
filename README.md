@@ -36,8 +36,8 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 * cd `$SiamFC-PyTorch/Train/`
 * Change `data_dir`, `train_imdb` and `val_imdb` to your custom <b>cropping path</b>, training and validation json files
 * run `$python run_Train_SiamFC.py`
-
-#### some notes in training
+* <b>some notes in training</b>
+  * by default, I use GPU in training, and you can check the details in the function `train(data_dir, train_imdb, val_imdb, model_save_path="./model/", use_gpu=True)`
 
 ## Test (Tracking)
 
