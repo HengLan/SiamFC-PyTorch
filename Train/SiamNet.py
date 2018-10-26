@@ -33,7 +33,7 @@ class SiamNet(nn.Module):
             nn.Conv2d(384, 256, 3, 1, groups=2)  # conv5
         )
 
-        # # adjust layer as in the original SiamFC in matconvnet
+        # adjust layer as in the original SiamFC in matconvnet
         self.adjust = nn.Conv2d(1, 1, 1, 1)
 
         # initialize weights
@@ -54,7 +54,6 @@ class SiamNet(nn.Module):
         # correlation of z and z
         xcorr_out = self.xcorr(z_feat, x_feat)
 
-        # xcorr_out = self.xcorr(z_feat, x_feat) * 1e-3 + self.corr_bias
         score = self.adjust(xcorr_out)
 
         return score
