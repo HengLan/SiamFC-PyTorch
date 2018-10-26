@@ -64,7 +64,7 @@ class VIDDataset(Dataset):
         img_x = cv2.cvtColor(img_x, cv2.COLOR_BGR2RGB)
 
         # do data augmentation;
-        # note that we have done center for z in the data augmentation
+        # note that we have done center crop for z in the data augmentation
         img_z = self.z_transforms(img_z)
         img_x = self.x_transforms(img_x)
 
