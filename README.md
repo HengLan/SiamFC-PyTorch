@@ -58,12 +58,8 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
   * you can also change whihc net for evaluation in `run_Train_SiamFC.py`
 
 ## Results
-I tested the trained model on OTB-100 using a Nvidia 1080 GPU. The results and comparisons to the original implementation are listed as below
+I tested the trained model on OTB-100 using a Nvidia 1080 GPU. The results and comparisons to the original implementation are shown in the below image. Note that, both models are trained from stratch.
 
-| 默认  |   靠右 |  居中  | 靠左   |
-| ---- |  ---: | :--:  | :---  |
-| AUC  |   内容 |  内容  | 内容   |
-| Precision  |   内容 |  条目  | 内容   |
 
 ## References
 
