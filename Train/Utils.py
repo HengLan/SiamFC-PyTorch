@@ -72,6 +72,7 @@ def cv2_brg2rgb(bgr_img):
     """
     b, g, r = cv2.split(bgr_img)
     rgb_img = cv2.merge([r, g, b])
+    
     return rgb_img
 
 
