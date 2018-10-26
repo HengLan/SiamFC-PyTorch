@@ -58,7 +58,7 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
   * you can also change whihc net for evaluation in `run_Train_SiamFC.py`
 
 ## Results
-I tested the trained model on OTB-100 using a Nvidia 1080 GPU. The results and comparisons to the original implementation are shown in the below image. Note that, both models are trained from stratch.
+I tested the trained model on OTB-100 using a Nvidia 1080 GPU. The results and comparisons to the original implementation are shown in the below image. The running speed of our implementation is <b>82 fps</b>. Note that, both models are trained from stratch.
 
 ![image](/imgs/result.PNG)
 
