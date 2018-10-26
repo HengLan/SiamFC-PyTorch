@@ -58,11 +58,11 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
   * you can also change whihc net for evaluation in `run_Train_SiamFC.py`
 
 ## Results
-
-| 默认  |   靠右 |  居中  | 靠左   |
+I tested the trained model on OTB-100 using a Nvidia 1080 GPU. The results and comparisons to the original implementation are listed as below
+|   |   Matconvnet (AUC) |  Mat  | 靠左   |
 | ---- |  ---: | :--:  | :---  |
-| 内容  |   内容 |  内容  | 内容   |
-| 内容  |   内容 |  条目  | 内容   |
+| AUC |   内容 |  内容  | 内容   |
+| Prec |   内容 |  内容  | 内容   |
 
 ## References
 
