@@ -41,6 +41,7 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
   * by default, the trained models will be saved to `$SiamFC-PyTorch/Train/model/`
   * each epoch (50 in total) may take 7-8 minuts (Nvidia 1080 GPU), and you can use parallelling utilities in PyTorch for speeding up
   * I tried to use fixed random seeds to get the same results, but it doesn't work ):, so results for each training may be slightly different (still better than the original)
+  * <b>only</b> color images are used for training, and better performance is expected if using color+gray as in original paper
 
 ## Test (Tracking)
 
