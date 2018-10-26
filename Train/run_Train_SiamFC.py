@@ -148,7 +148,10 @@ def train(data_dir, train_imdb, val_imdb, model_save_path="./model/", use_gpu=Tr
             exemplar_imgs, instance_imgs = data
 
             # forward pass
-            output = net.forward(Variable(exemplar_imgs.cuda()), Variable(instance_imgs.cuda()))
+            if use_gpu:
+                exemplar_imgs = exemplar_imgs.cuda()
+                instance_imgs = instance_imgs.cuda()
+            output = net.forward(Variable(exemplar_imgs), Variable(instance_imgs))
 
             # create label for validation (only do it one time)
             if not valid_response_flag:
