@@ -29,7 +29,7 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 * Generate imdb for training and validation
   * cd `$SiamFC-PyTorch/ILSVRC15-curation/`
   * change `vid_root_path` and `vid_curated_path` to your custom path in `gen_imdb_VID.py`
-  * run `$python gen_imdb_VID` (I run it in PyCharm), then you will get two json files `imdb_video_train.json` and `imdb_video_val.json` in current folder
+  * run `$python gen_imdb_VID` (I run it in PyCharm), then you will get two json files `imdb_video_train.json` (~ 430MB) and `imdb_video_val.json` (~ 28MB) in current folder, which are used for training and validation
  
 
 ## Train
