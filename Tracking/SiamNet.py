@@ -51,7 +51,7 @@ class SiamNet(nn.Module):
         z_feat = self.feat_extraction(z)
         x_feat = self.feat_extraction(x)
 
-        # correlation of z and z
+        # correlation of z and x
         xcorr_out = self.xcorr(z_feat, x_feat)
 
         # xcorr_out = self.xcorr(z_feat, x_feat) * 1e-3 + self.corr_bias
