@@ -14,6 +14,8 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 
 ## Data curation 
 
+* Download <a href="http://bvisionweb1.cs.unc.edu/ilsvrc2015/ILSVRC2015_VID.tar.gz">ILSVRC15</a>, and unzip it (let's assume that $ILSVRC2015_Root is the path to your ILSVRC2015)
+
 ## Train
 
 ## Test (Tracking)
