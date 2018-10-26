@@ -9,3 +9,5 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 ## References
 
 [1] L. Bertinetto, J. Valmadre, J. F. Henriques, A. Vedaldi, and P. H. Torr. Fully-convolutional siamese networks for object tracking. In ECCV Workshop, 2016.
+
+[2] A. Vedaldi and K. Lenc. Matconvnet – convolutional neural networks for matlab. In ACM MM, 2015.
