@@ -1,6 +1,5 @@
 '''
 Writted by Heng Fan
-10/01/2018
 '''
 import numpy as np
 import os
