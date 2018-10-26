@@ -67,3 +67,7 @@ I tested the trained model on OTB-100 using a Nvidia 1080 GPU. The results and c
 [1] L. Bertinetto, J. Valmadre, J. F. Henriques, A. Vedaldi, and P. H. Torr. Fully-convolutional siamese networks for object tracking. In ECCV Workshop, 2016.
 
 [2] A. Vedaldi and K. Lenc. Matconvnet – convolutional neural networks for matlab. In ACM MM, 2015.
+
+## Contact 
+
+Any question are welcomed~
