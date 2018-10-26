@@ -34,7 +34,8 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 ## Train
 
 * cd `$SiamFC-PyTorch/Train/`
-* Change `data_dir`, `train_imdb` and `val_imdb` to your custom <b>cropping path</b>, training and validation json files.
+* Change `data_dir`, `train_imdb` and `val_imdb` to your custom <b>cropping path</b>, training and validation json files
+* run `$python run_Train_SiamFC.py`
 
 ## Test (Tracking)
 
