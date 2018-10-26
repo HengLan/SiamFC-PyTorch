@@ -20,8 +20,9 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 * Move `$ILSVRC2015_Root/Annotations/VID/val` into `$ILSVRC2015_Root/Annotations/VID/train/`, so we have five sub-folders in `$ILSVRC2015_Root/Annotations/VID/train/`
 * Change the names of five sub-folders in `$ILSVRC2015_Root/Annotations/VID/train/` to `a`, `b`, `c`, `d` and `e`, respectively
 
-* generate image crops
- * ffff
+* 项目
+  * 子项目
+  * 子项目
 
 ## Train
 
