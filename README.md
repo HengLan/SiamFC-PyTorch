@@ -11,6 +11,7 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 * Python 2.7 (I use Anaconda 2.* here)
 * Python-opencv
 * PyTorch 0.40
+* other common packages such as `numpy`, etc
 
 ## Data curation 
 
@@ -22,6 +23,8 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 
 * Generate image crops
   * cd `$SiamFC-PyTorch/ILSVRC15-curation/` (Assume you've downloaded the rep and its path is `$SiamFC-PyTorch`)
+  * change `vid_curated_path` in `gen_image_crops_VID.py` to save your crops
+  * run `python gen_image_crops_VID` 
 
 ## Train
 
