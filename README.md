@@ -1,5 +1,5 @@
 ## SiamFC-PyTorch
-This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was originally implemented in Matlab using MatConvNet [2].
+This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was originally <a href="https://github.com/bertinetto/siamese-fc">implemented</a> in Matlab using MatConvNet [2].
 
 ## Goal
 
