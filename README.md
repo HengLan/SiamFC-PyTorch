@@ -21,7 +21,7 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 * Change the names of five sub-folders in `$ILSVRC2015_Root/Annotations/VID/train/` to `a`, `b`, `c`, `d` and `e`, respectively
 
 * Generate image crops
-  * Cd `$SiamFC-PyTorch`
+  * Cd `$SiamFC-PyTorch` (Let's assume you've already download the rep and its path is `$SiamFC-PyTorch`)
 
 ## Train
 
