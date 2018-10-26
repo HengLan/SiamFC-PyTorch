@@ -47,7 +47,10 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 ## Test (Tracking)
 
 * cd `$SiamFC-PyTorch/Tracking/`
-* firstly, take a look at `Config.py`
+* <b>Firstly</b>, you should take a look at `Config.py`, which contains all parameters for tracking
+* Change `self.net_base_path` to the path saving your trained models
+* Change `self.seq_base_path` to the path storing your test sequences (OTB format, otherwise you need to revise the function `load_sequence()` in `Tracking_Utils.py`
+* Change `self.net` to indicate whcih model you want for evaluation (by default, use the last one)
 
 ## Results
 
