@@ -1,5 +1,5 @@
 '''
-Writted by Heng Fan
+Written by Heng Fan
 '''
 import numpy as np
 import os
