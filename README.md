@@ -4,7 +4,15 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 ## Goal
 
 * A more compact implementation of SiamFC [1]
-* Reproduce the results of SiamFC [1], including data generation, training and tracking, 
+* Reproduce the results of SiamFC [1], including data generation, training and tracking
+
+## Data curation 
+
+## Train
+
+## Test (Tracking)
+
+## Results
 
 ## References
 
