@@ -70,4 +70,4 @@ I tested the trained model on OTB-100 using a Nvidia 1080 GPU. The results and c
 
 ## Contact 
 
-Any question are welcomed~
+Any question are welcomed to hengfan@temple.edu.
