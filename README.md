@@ -38,6 +38,8 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 * run `$python run_Train_SiamFC.py`
 * <b>some notes in training</b>
   * by default, I use GPU in training, and you can check the details in the function `train(data_dir, train_imdb, val_imdb, model_save_path="./model/", use_gpu=True)`
+  * by default, the trained models will be saved to `$SiamFC-PyTorch/Train/model/`
+  * each epoch may take 7-8 minuts (Nvidia 1080 GPU), and there are 50 epoches in total
 
 ## Test (Tracking)
 
