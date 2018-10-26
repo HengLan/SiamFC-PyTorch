@@ -23,6 +23,7 @@ def create_logisticloss_label(label_size, rPos, rNeg):
             else:
                 if dist_from_origin <= rNeg:
                     logloss_label[i, j] = 0
+                
     return logloss_label
 
 
