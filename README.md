@@ -8,6 +8,10 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 
 ## Requirements
 
+* Python 2.7 (I use Anaconda 2.* here)
+* Python-opencv
+* PyTorch 0.40
+
 ## Data curation 
 
 ## Train
