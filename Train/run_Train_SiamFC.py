@@ -90,7 +90,7 @@ def train(data_dir, train_imdb, val_imdb, model_save_path="./model/", use_gpu=Tr
         scheduler.step()
 
         # ------------------------------ training ------------------------------
-        # indicating training (very importance for batch normalization)
+        # indicating training (very important for batch normalization)
         net.train()
 
         # used to collect loss
