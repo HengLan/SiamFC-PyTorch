@@ -8,7 +8,7 @@ This is the PyTorch (0.40) implementation of SiamFC tracker [1], which was origi
 
 ## Requirements
 
-* Python 2.7 (I use Anaconda 2.* here)
+* Python 2.7 (I use Anaconda 2.* here. If you use Python3, you may get a very different results!)
 * Python-opencv
 * PyTorch 0.40
 * other common packages such as `numpy`, etc
